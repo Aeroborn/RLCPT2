@@ -225,7 +225,7 @@ if(MU_Master & (Type) & clk("clk")){
     
         timer("clk",100)
     
-}elseif(clk()){
+}elseif(clk("clk")){
     
     CS:setBodygroup(1,0)#Reverser
     CS:setBodygroup(2,1)#Throttle
